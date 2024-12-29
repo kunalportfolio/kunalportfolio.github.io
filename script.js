@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     document.getElementById('loader').classList.add('hide');
-  }, 5);
+  }, 5000);
 });
 
 const cursor = document.querySelector(".cursor");
